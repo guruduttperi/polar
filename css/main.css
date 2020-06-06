@@ -433,7 +433,7 @@ a {
     transition: 0.4s ease; }
   a:hover {
     text-decoration: none;
-    cursor: grab; }
+     }
   a.text-link:hover:after {
     width: 100%;
     z-index: 100; }
