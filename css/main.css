@@ -1,61 +1,3 @@
-/* CircularStd @font-face kit */
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Black.eot');
-  src: url('../fonts/CircularStd-Black.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Black.woff') format('woff'), url('../fonts/CircularStd-Black.ttf') format('truetype'), url('../fonts/CircularStd-Black.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 800;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-BlackItalic.eot');
-  src: url('../fonts/CircularStd-BlackItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BlackItalic.woff') format('woff'), url('../fonts/CircularStd-BlackItalic.ttf') format('truetype'), url('../fonts/CircularStd-BlackItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 800;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Bold.eot');
-  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Bold.woff') format('woff'), url('../fonts/CircularStd-Bold.ttf') format('truetype'), url('../fonts/CircularStd-Bold.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 600;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-BoldItalic.eot');
-  src: url('../fonts/CircularStd-BoldItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BoldItalic.woff') format('woff'), url('../fonts/CircularStd-BoldItalic.ttf') format('truetype'), url('../fonts/CircularStd-BoldItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 600;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Medium.eot');
-  src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Medium.woff') format('woff'), url('../fonts/CircularStd-Medium.ttf') format('truetype'), url('../fonts/CircularStd-Medium.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-MediumItalic.eot');
-  src: url('../fonts/CircularStd-MediumItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-MediumItalic.woff') format('woff'), url('../fonts/CircularStd-MediumItalic.ttf') format('truetype'), url('../fonts/CircularStd-MediumItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 500;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-Book.eot');
-  src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-Book.woff') format('woff'), url('../fonts/CircularStd-Book.ttf') format('truetype'), url('../fonts/CircularStd-Book.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'CircularStd';
-  src: url('../fonts/CircularStd-BookItalic.eot');
-  src: url('../fonts/CircularStd-BookItalic.eot?#iefix') format('embedded-opentype'), url('../fonts/CircularStd-BookItalic.woff') format('woff'), url('../fonts/CircularStd-BookItalic.ttf') format('truetype'), url('../fonts/CircularStd-BookItalic.svg#bcc26993292869431e54c666aafa8fcd') format('svg');
-  font-weight: 400;
-  font-style: italic;
-}
-
 
 /* Archia @font-face kit */
 
@@ -107,12 +49,30 @@
     font-style: normal;
 }
 
+
+/* GT Family @font-face kits */
+
+@font-face {
+    font-family: 'gtwalsheim';
+    src: url('../fonts/grillitype/GT-Walsheim-Pro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gtwalsheim-bold';
+    src: url('../fonts/grillitype/GT-Walsheim-Pro-Bold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 /* Text Parameters */
 
 *, .subtitle, p a{
-  /*font-family: "CircularStd", sans-serif;
-   */
-  font-family: "CircularStd", sans-serif;
+
+  font-family: "archiamedium", sans-serif;
   font-weight: 400;
   line-height: 1.78em;
   letter-spacing: 0rem;
@@ -120,12 +80,12 @@
 }
 
 b{
-  font-family: "CircularStd", sans-serif;
+  font-family: "archiabold", sans-serif;
     font-weight: 600;
 }
 
 .title {
-  font-family: "CircularStd", sans-serif;
+  font-family: "archiabold", sans-serif;
   font-weight: 600;
   line-height: 1.78em;
   letter-spacing: 0rem;
@@ -473,7 +433,7 @@ a {
     transition: 0.4s ease; }
   a:hover {
     text-decoration: none;
-    cursor: poCircularStd; }
+    cursor: grab; }
   a.text-link:hover:after {
     width: 100%;
     z-index: 100; }
@@ -1137,7 +1097,6 @@ align-self: center;
   padding: 1.5em;
   margin: 1em auto;
   position: relative;
-  cursor: poCircularStd;
   border-radius: 0px;
 
 }
@@ -1188,7 +1147,7 @@ align-self: center;
     font-family: sans-serif;
     background: transparent;
     padding: 5px;
-    width: 180px;
+    width: 200px;
     position: fixed;
     top: 200px;
     right: 0px;
