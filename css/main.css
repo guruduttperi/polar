@@ -67,12 +67,46 @@
 }
 
 
+/* GT Family @font-face kits */
+
+@font-face {
+    font-family: 'EuclidCircularA';
+    src: url('../fonts/euclid/EuclidCircularB-Regular-WebTrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EuclidCircularA-Bold';
+    src: url('../fonts/euclid/EuclidCircularB-Regular-WebTrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* GT Family @font-face kits */
+
+@font-face {
+  font-family: 'Moderat-Regular';
+  src: url('../fonts/Moderat-Regular-Web/Moderat-Regular.eot');
+  src: url('../fonts/Moderat-Regular-Web/Moderat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderat-Regular-Web/Moderat-Regular.woff') format('woff'), url('../fonts/Moderat-Regular-Web/Moderat-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Moderat-Bold';
+  src: url('../fonts/Moderat-Bold-Web/Moderat-Bold.eot');
+  src: url('../fonts/Moderat-Bold-Web/Moderat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderat-Bold-Web/Moderat-Bold.woff') format('woff'), url('../fonts/Moderat-Bold-Web/Moderat-Bold.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Text Parameters */
 
 *, .subtitle, p a{
 
-  font-family: "archiamedium", sans-serif;
+  font-family: "Moderat-Regular", sans-serif;
   font-weight: 400;
   line-height: 1.78em;
   letter-spacing: 0rem;
@@ -80,12 +114,12 @@
 }
 
 b{
-  font-family: "archiabold", sans-serif;
+  font-family: "Moderat-Bold", sans-serif;
     font-weight: 600;
 }
 
 .title {
-  font-family: "archiabold", sans-serif;
+  font-family: "Moderat-Bold", sans-serif;
   font-weight: 600;
   line-height: 1.78em;
   letter-spacing: 0rem;
