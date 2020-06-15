@@ -106,19 +106,23 @@
 
 *, .subtitle, p a{
 
-  font-family: "gtwalsheim", sans-serif;
-  letter-spacing: normal;
-  line-height: 1.78em;
+  font-family: "Moderat", sans-serif;
+  line-height: 1.66em;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 b{
-  font-family: "gtwalsheim-bold", sans-serif;
+  font-family: "Moderat-Bold", sans-serif;
+  -webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
 .title {
-  font-family: "gtwalsheim-bold", sans-serif;
-
-  line-height: 1.78em;
+  font-family: "Moderat-Bold", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.66em;
 
 }
 
