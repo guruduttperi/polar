@@ -90,7 +90,7 @@
   font-family: 'Moderat-Regular';
   src: url('../fonts/Moderat-Regular-Web/Moderat-Regular.eot');
   src: url('../fonts/Moderat-Regular-Web/Moderat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderat-Regular-Web/Moderat-Regular.woff') format('woff'), url('../fonts/Moderat-Regular-Web/Moderat-Regular.woff2') format('woff2');
-  font-weight: 400;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -98,7 +98,7 @@
   font-family: 'Moderat-Bold';
   src: url('../fonts/Moderat-Bold-Web/Moderat-Bold.eot');
   src: url('../fonts/Moderat-Bold-Web/Moderat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderat-Bold-Web/Moderat-Bold.woff') format('woff'), url('../fonts/Moderat-Bold-Web/Moderat-Bold.woff2') format('woff2');
-  font-weight: 400;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -106,23 +106,19 @@
 
 *, .subtitle, p a{
 
-  font-family: "Moderat-Regular", sans-serif;
-  font-weight: 400;
+  font-family: "gtwalsheim", sans-serif;
+  letter-spacing: normal;
   line-height: 1.78em;
-  letter-spacing: 0rem;
-
 }
 
 b{
-  font-family: "Moderat-Bold", sans-serif;
-    font-weight: 600;
+  font-family: "gtwalsheim-bold", sans-serif;
 }
 
 .title {
-  font-family: "Moderat-Bold", sans-serif;
-  font-weight: 600;
+  font-family: "gtwalsheim-bold", sans-serif;
+
   line-height: 1.78em;
-  letter-spacing: 0rem;
 
 }
 
@@ -1181,10 +1177,10 @@ align-self: center;
     font-family: sans-serif;
     background: transparent;
     padding: 5px;
-    width: 200px;
+    width: 180px;
     position: fixed;
     top: 200px;
-    right: 0px;
+    left: 0px;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
     border-radius: 8px 0px 0px 8px;
