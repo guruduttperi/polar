@@ -1188,7 +1188,7 @@ align-self: center;
     left: 0px;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
-    border-radius: 8px 0px 0px 8px;
+    border-radius: 0px 8px 8px 0px;
 
     z-index: 100;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
