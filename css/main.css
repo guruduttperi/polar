@@ -99,7 +99,7 @@
   src: url('../fonts/Moderat-Bold-Web/Moderat-Bold.eot');
   src: url('../fonts/Moderat-Bold-Web/Moderat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Moderat-Bold-Web/Moderat-Bold.woff') format('woff'), url('../fonts/Moderat-Bold-Web/Moderat-Bold.woff2') format('woff2');
   font-weight: bold;
-  font-style: normal;
+  font-style: bold;
 }
 
 /* Text Parameters */
@@ -114,7 +114,7 @@
 }
 
 b{
-  font-family: "Moderat-Regular", sans-serif;
+  font-family: "Moderat-Bold", sans-serif;
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
