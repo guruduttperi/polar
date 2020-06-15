@@ -109,17 +109,20 @@
   font-family: "Moderat", sans-serif;
   line-height: 1.66em;
   -webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 b{
-  font-family: "Moderat-Bold", sans-serif;
+  font-family: "Moderat", sans-serif;
   -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
 
 .title {
   font-family: "Moderat-Bold", sans-serif;
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.66em;
