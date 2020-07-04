@@ -108,19 +108,21 @@
 
   font-family: "Moderat-Regular", sans-serif;
   line-height: 1.66em;
+  font-display: swap;
 
 
 }
 
 b{
   font-family: "Moderat-Bold", sans-serif;
+   font-display: swap;
 
 }
 
 .title {
   font-family: "Moderat-Bold", sans-serif;
-
   line-height: 1.66em;
+  font-display: swap;
 
 }
 
@@ -797,7 +799,7 @@ a.navbar-item:hover:before {
 
 .post-activated{
   box-shadow: 0 30px 30px rgba(0,0,0,.12);
-  border-radius: 8px;
+  border-radius: 12px;
   transform: translate(0,-5px);
   transition-delay: 0s !important;
   z-index: 10;
@@ -807,7 +809,7 @@ a.navbar-item:hover:before {
 
 .image-activated{
   box-shadow: 0 30px 30px rgba(0,0,0,.12);
-  border-radius: 8px;
+  border-radius: 12px;
   transform: translate(0,-5px);
   transition-delay: 0s !important;
   z-index: 10;
@@ -934,7 +936,7 @@ align-self: center;
 
 .border-shadow {
     box-shadow: 0 0px 33px 0 rgba(0,0,0,.00);
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: rgba(0,0,0,.00);
     outline: 0;
 }
@@ -947,12 +949,12 @@ align-self: center;
   box-shadow: 0 0px 0px rgba(0,0,0, 0), 0 0 0 0px rgba(0, 0, 0, 0);
   max-width: 100%;
   position: relative;
-  border-radius: 8px;
+  border-radius: 12px;
 
 }
 
 .card-image{
-    border-radius: 8px;
+    border-radius: 12px;
 }
 
 .port-text{
@@ -1099,7 +1101,7 @@ align-self: center;
   max-width: 100%;
   position: relative;
   /* border-radius: 6px*/
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 
@@ -1151,7 +1153,7 @@ align-self: center;
    width: 50px;
    height: 50px;
    box-sizing: border-box;
-   border-radius: 8px;
+   border-radius: 12px;
  }
 
  a.back-to-top {
@@ -1185,7 +1187,7 @@ align-self: center;
     left: 0px;
     background-color: #ffffff;
     transition: opacity .2s ease-in-out;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 0px 12px 12px 0px;
 
     z-index: 100;
     box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 40px 0px;
@@ -1210,12 +1212,12 @@ align-self: center;
 
 
 .img-top-rounded{
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .img-rounded{
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 .img-boxshadow{

@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="images/iconmeme.png">
   <link rel="stylesheet" href="css/main.css">
   <script src="https://kit.fontawesome.com/d2e08c8e07.js"></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <meta name="full-screen" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
@@ -60,10 +60,10 @@
 
 </head>
 
-<body class = "has-navbar-fixed-top">
+<body data-gr-c-s-loaded="true" data-aos-easing="ease" data-aos-duration="12" data-aos-delay="0">
   <a href="#" id="back-to-top" class="back-to-top" style="display: inline;">↑</a>
 
-  <nav class="navbar bkg-white is-fixed-top" >
+  <nav class="navbar bkg-white ">
     <div class="container">
       <div class="navbar-brand">
         <a class="navbar-item is-1" href="index.html" id="logo">
@@ -79,7 +79,7 @@
       </div>
       <div id="navMenu" class="navbar-menu">
         <div class="navbar-end">
-          <a href="index.html" class="navbar-item is-active">Work</a>
+          <a href="index.html#selectedwork" class="navbar-item is-active">Work</a>
           <a href="music.html" class="navbar-item">Music</a>
           <a href="about.html" class="navbar-item">About</a>
           <a href="https://drive.google.com/file/d/1W9_W2DkDixpVjE_hPlflZF3BS0LHxEb1/view" class="navbar-item">Resume</a>
@@ -97,11 +97,11 @@ background-repeat: no-repeat;">
 
     <div class="hero-body">
       <div class="container">
-
+        <div data-aos="fade-up" data-aos-duration="10" data-aos-easing="ease-in-out">
 
           <div class="columns is-centered">
 
-            <div class="column is-8">
+            <div class="column is-7">
 
               <h1 class="title is-3" style="text-align:left; color: var(--black); ">
 Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a> ✌️</h1>
@@ -117,6 +117,7 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
           </div>
 
 
+        </div>
       </div>
     </div>
   </section>
@@ -124,8 +125,8 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
 
 
   <section class="hero bkg-white is-fullheight is-fullwidth" id="selectedwork" >
-
-      <div data-aos="fade-up" data-aos-duration="10" data-aos-easing="ease-in">
+    <div data-aos=" ">
+      <div data-aos="fade-up" data-aos-duration="10" data-aos-easing="ease-in-out">
         <div class="hero-body">
           <div class="container ">
             <div class="columns is-centered">
@@ -210,8 +211,7 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
                       <div class="content">
                         Designing a multi-channel platform for the Atlanta Symphony Orchestra to capture audience feedback.
                         <br><br>
-                  <span class="cardtextpost-azure"><b>SERVICE DESIGN</b></span>
-                   <span class="cardtextpost">  <span class="cardtextpost"> (COMING SOON)</span> </span>
+                  <span class="cardtextpost-azure"><b>SERVICE DESIGN</b></span> <span class="cardtextpost">
                       </div>
                     </div>
                   </div>
@@ -244,7 +244,6 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
                         Designing and building a health tracking app to help breast cancer survivors after treatment.
                         <br><br>
                   <span class="cardtextpost-azure"><b>UX ENGINEERING</b></span>
-                   <span class="cardtextpost">  <span class="cardtextpost"> (COMING SOON)</span> </span>
                       </div>
                     </div>
                   </div>
@@ -269,7 +268,6 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
                         Designed an app to help young adults find affordable and safe spaces to stay while traveling.
                         <br><br>
                   <span class="cardtextpost-azure"><b>DESIGN SPRINT</b></span>
-                   <span class="cardtextpost">  <span class="cardtextpost"> (COMING SOON)</span> </span>
                       </div>
                     </div>
                   </div>
@@ -296,7 +294,6 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
                         Designed a platform to connect students with research internships at universities around the world.
                         <br><br>
                     <span class="cardtextpost-azure"><b> INTERNSHIP </b></span>
-                     <span class="cardtextpost">  <span class="cardtextpost"> (COMING SOON)</span> </span>
                       </div>
                     </div>
                   </div>
@@ -427,6 +424,7 @@ Hello, I'm <a href = "about.html"><b style = "color: var(--azure);">Guru</b></a>
       var runAnimation = setInterval(animateScroll, 16);
     });
   </script>
+
 
 
   <!-- <script src="https://platform-beta.oswaldlabs.com/v1/agastya/load/guruduttperi.js" async defer></script>
